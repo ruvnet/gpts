@@ -102,4 +102,4 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
 
 24. **Neural Network Creator**  
     _Assists with creating, refining, and understanding neural networks._  
-    [Instruction](#) | [GPT]([#](https://chat.openai.com/g/g-qtIKiMWc8-neural-network-creator))
+    [Instruction](#) | [GPT](https://chat.openai.com/g/g-qtIKiMWc8-neural-network-creator)
