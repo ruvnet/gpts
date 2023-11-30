@@ -52,7 +52,7 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
 
 12. 📅 **GPT Calendar and Email Scheduler**  
     _A bot for scheduling and managing Google Calendar meetings._  
-    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/GPT%20Calendar%20and%20Email%20Scheduler.txt) | [GPT](https://chat.openai.com/g/g-yPpqTeedS-gpt-calendar-and-email-scheduler)
+    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/GPT%20Calendar%20and%20Email%20Scheduler.txt) | [GPT](https://chat.openai.com/g/g-yPpqTeedS-gpt-calendar-and-email-scheduler) | [OPENAPI.JSON](https://github.com/ruvnet/gpts/blob/main/openapi-json/ms-graph.json)
 
 13. 🧭 **MS Co-Pilot**  
     _Guide for Microsoft Graph API and OAuth configuration._  
