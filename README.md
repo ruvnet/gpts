@@ -48,7 +48,7 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
 
 11. 💻 **The Coding Wingman**  
     _AI assistant for coding, with GitHub integration._  
-    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/The%20Coding%20Wingman.txt) | [GPT](https://chat.openai.com/g/g-rvFHm9pMe-the-coding-wingman)
+    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/The%20Coding%20Wingman.txt) | [GPT](https://chat.openai.com/g/g-rvFHm9pMe-the-coding-wingman) | [OPENAPI.JSON](https://github.com/ruvnet/gpts/blob/main/openapi-json/coding-wingman.json)
 
 12. 📅 **GPT Calendar and Email Scheduler**  
     _A bot for scheduling and managing Google Calendar meetings._  
