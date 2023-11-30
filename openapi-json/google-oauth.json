@@ -1,0 +1,86 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Simple Google OAuth API",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://www.googleapis.com"
+    }
+  ],
+  "paths": {
+    "/oauth2/v2/userinfo": {
+      "get": {
+        "summary": "Get authenticated Google user information",
+        "operationId": "getGoogleUserInfo",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GoogleUser"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "GoogleOAuth2": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "GoogleUser": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "email": {
+            "type": "string"
+          },
+          "verified_email": {
+            "type": "boolean"
+          },
+          "name": {
+            "type": "string"
+          },
+          "given_name": {
+            "type": "string"
+          },
+          "family_name": {
+            "type": "string"
+          },
+          "picture": {
+            "type": "string"
+          },
+          "locale": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "GoogleOAuth2": {
+        "type": "oauth2",
+        "flows": {
+          "authorizationCode": {
+            "authorizationUrl": "https://accounts.google.com/o/oauth2/auth",
+            "tokenUrl": "https://accounts.google.com/o/oauth2/token",
+            "scopes": {
+              "openid": "Associate you with your personal info on Google",
+              "email": "View your email address",
+              "profile": "View your basic profile info"
+            }
+          }
+        }
+      }
+    }
+  }
+}
