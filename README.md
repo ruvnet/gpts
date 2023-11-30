@@ -57,7 +57,7 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
 
 13. 🧭 **MS Co-Pilot**  
     _Guide for Microsoft Graph API and OAuth configuration._  
-    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/MS%20Co-Pilot.txt) | [GPT](https://chat.openai.com/g/g-6QzJ0XxVC-ms-co-pilot)
+    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/MS%20Co-Pilot.txt) | [GPT](https://chat.openai.com/g/g-6QzJ0XxVC-ms-co-pilot) | [OPENAPI.JSON](https://github.com/ruvnet/gpts/blob/main/openapi-json/ms-graph.json)
 
 14. 🧪 **Magic Potion Designer**  
     _Design and create magical potions._  
