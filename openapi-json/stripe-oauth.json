@@ -1,0 +1,117 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Stripe Payments with OAuth and Checkout Session",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://api.stripe.com/v1",
+      "description": "Stripe API Server"
+    }
+  ],
+  "security": [
+    {
+      "OAuth2": []
+    }
+  ],
+  "paths": {
+    "/checkout/sessions": {
+      "post": {
+        "operationId": "createCheckoutSession",
+        "description": "Create a Checkout Session",
+        "responses": {
+          "200": {
+            "description": "Checkout Session created successfully"
+          }
+        }
+      }
+    },
+    "/payment_intents/{payment_intent_id}": {
+      "get": {
+        "operationId": "getPaymentIntent",
+        "description": "Retrieve a specific PaymentIntent",
+        "parameters": [
+          {
+            "name": "payment_intent_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Details of the PaymentIntent"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CheckoutSession": {
+        "type": "object",
+        "properties": {
+          "line_items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "price": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "type": "integer"
+                }
+              }
+            }
+          },
+          "payment_intent_data": {
+            "type": "object",
+            "properties": {
+              "application_fee_amount": {
+                "type": "integer"
+              },
+              "transfer_data": {
+                "type": "object",
+                "properties": {
+                  "destination": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          },
+          "success_url": {
+            "type": "string"
+          },
+          "cancel_url": {
+            "type": "string"
+          }
+        }
+      },
+      "PaymentIntent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "OAuth2": {
+        "type": "oauth2",
+        "flows": {
+          "authorizationCode": {
+            "authorizationUrl": "https://connect.stripe.com/oauth/authorize",
+            "tokenUrl": "https://connect.stripe.com/oauth/token",
+            "scopes": {}
+          }
+        }
+      }
+    }
+  }
+}
