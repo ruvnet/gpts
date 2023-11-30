@@ -12,7 +12,7 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
 
 
 2. 💊 **MedicGPT**  
-   _A medical aid bot providing diagnosis and educational insights. Note: Not a substitute for professional medical advice._  
+   _A medical aid bot providing diagnosis and educational insights._  
    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/MedicGPT.txt) | [GPT](https://chat.openai.com/g/g-9t12PrN8v-medicgpt)
 
 3. ⚖️ **LegalGPT**  
