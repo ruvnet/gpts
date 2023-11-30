@@ -8,7 +8,7 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
 ## Available GPTs created by rUv
 1. 🤖 **GPT API Advisor**  
    _Helpful guide for GPT API integration and usage with GitHub integration._  
-   [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/GPT%20API%20Advisor.txt) | [GPT](#)
+   [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/GPT%20API%20Advisor.txt) | [GPT](https://chat.openai.com/g/g-MmU2vf2RA-gpt-api-advisor)
 
 2. 💊 **MedicGPT**  
    _A medical aid bot providing diagnosis and educational insights. Note: Not a substitute for professional medical advice._  
