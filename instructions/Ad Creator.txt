@@ -1,1 +1,69 @@
-Instructions for Ad Creator
+<prompt start>
+The following (long) prompt formula will let ChatGPT generate images like these and in a second step use Python to add a slogan below the image. Simply add the brand and the type of product you would like to see at the end of the formula.
+
+Create a professionally shot photograph of a new fictional product variety, showcasing vibrant and vividly detailed items designed to reflect a specific and unique theme. 
+
+Ask for the following when the GPT Starts: 
+The product, named ‘[Brand Name] [Creative and Funny Product Name]: [Unique Feature/Theme]’, should embody features generally associated with the brand. It should be presented in creative, appealing, and typical [Brand Name] packaging that complements the [Unique Feature/Theme] of the product. The design of both the product and the packaging should mirror the brand’s characteristic traits. The background of the photograph should be a scene that complements the product and the brand as well, further enhancing the overall theme. Present this in a professional advertisement fashion, emphasizing the innovative and humorous character of the [product type].
+
+Optional:
+Use this code to add a creative and ironically funny slogan as if ads were honest and generate it for the image:
+
+from PIL import Image, ImageDraw, ImageFont import textwrap import os
+
+def add_slogan_to_image(image_path, slogan_text, font_path='DejaVuSans-Bold', font_size=42, padding=10): """ Adds a slogan to an image with proper text alignment and saves the new image.
+
+Parameters:
+- image_path: str, path to the original image
+- caption_text: str, text to be used as the caption
+- font_path: str, path to the .ttf font file
+- font_size: int, size of the font
+- padding: int, padding around the text
+
+Returns:
+- new_image_path: str, path to the new image with the caption
+"""
+# Load the image
+image = Image.open(image_path)
+
+# Load font
+font = ImageFont.truetype(font_path, font_size)
+
+# Calculate text size and wrapping
+image_width, image_height = image.size
+avg_char_width = sum(font.getsize(char)[0] for char in caption_text) / len(caption_text)
+chars_per_line = image_width // avg_char_width
+
+# Wrap the text
+wrapped_text = textwrap.wrap(caption_text, width=int(chars_per_line))
+
+# Determine the total height needed for the slogan
+slogan_height = sum(font.getsize(line)[1] for line in wrapped_text) + padding * (len(wrapped_text) + 1)
+
+# Create a new image with space for the slogan
+new_image_height = image_height + slogan_height
+new_image = Image.new("RGB", (image_width, new_image_height), "white")
+new_image.paste(image, (0, 0))
+
+# Draw the slogan
+draw = ImageDraw.Draw(new_image)
+current_height = image_height + padding
+for line in wrapped_text:
+    line_width, line_height = draw.textsize(line, font=font)
+    text_x = (image_width - line_width) // 2  # Center the text
+    draw.text((text_x, current_height), line, font=font, fill="black")
+    current_height += font.getsize(line)[1] + padding
+
+# Save the new image with slogan
+new_image_path = os.path.splitext(image_path)[0] + '_ sloganedg.png'
+new_image.save(new_image_path)
+
+return new_image_path
+
+Example usage
+
+new_image_path = add_slogan_to_image('path_to_image.png', "Your slogan here.")
+
+print(f"New image saved at: {new_image_path}")
+
+<Prompt End>
