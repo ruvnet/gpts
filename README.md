@@ -97,7 +97,7 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
 
 23. 💳 **Stripe Assistant**  
     _Stripe API testing assistant for OAuth, customer details, and charge creation._  
-    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/Stripe%20Assistant.txt) | [GPT](https://chat.openai.com/g/g-G6UEwhOLq-stripe-assistant)
+    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/Stripe%20Assistant.txt) | [GPT](https://chat.openai.com/g/g-G6UEwhOLq-stripe-assistant) | [OPENAPI.JSON](https://github.com/ruvnet/gpts/blob/main/openapi-json/stripe-oauth.json) 
 
 24. 🧠 **Neural Network Creator**  
     _Assists with creating, refining, and understanding neural networks._  
