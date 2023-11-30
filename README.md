@@ -1,4 +1,5 @@
 # The rUv ChatGPT GPT Repository
+![GPT Repo](https://github.com/ruvnet/gpts/blob/main/images/gpt-repo.png?raw=true)
 
 Welcome to rUv's ChatGPT GPT Repository — your definitive catalog of tailored GPT models crafted by rUv. This repository not only showcases an array of specialized GPTs designed for various applications but also serves as a springboard for enthusiasts and creators looking to sculpt their own AI models. 
 
