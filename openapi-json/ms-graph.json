@@ -1,0 +1,112 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Calendar and Email API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/calendars": {
+      "get": {
+        "summary": "Get all calendars",
+        "responses": {
+          "200": {
+            "description": "Array of calendar",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/calendar"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "getcalendars",
+        "security": [
+          {
+            "OAuth2": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "calendar": {
+        "type": "object",
+        "properties": {
+          "allowedOnlineMeetingProviders": {
+            "type": "string"
+          },
+          "calendarGroupId": {
+            "type": "string"
+          },
+          "canEdit": {
+            "type": "boolean"
+          },
+          "canShare": {
+            "type": "boolean"
+          },
+          "canViewPrivateItems": {
+            "type": "boolean"
+          },
+          "changeKey": {
+            "type": "string"
+          },
+          "color": {
+            "type": "string"
+          },
+          "defaultOnlineMeetingProvider": {
+            "type": "string"
+          },
+          "hexColor": {
+            "type": "string"
+          },
+          "isDefaultCalendar": {
+            "type": "boolean"
+          },
+          "isRemovable": {
+            "type": "boolean"
+          },
+          "isShared": {
+            "type": "boolean"
+          },
+          "isSharedWithMe": {
+            "type": "boolean"
+          },
+          "isTallyingResponses": {
+            "type": "boolean"
+          },
+          "name": {
+            "type": "string"
+          },
+          "owner": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "securitySchemes": {
+      "OAuth2": {
+        "type": "oauth2",
+        "flows": {
+          "authorizationCode": {
+            "authorizationUrl": "https://login.microsoftonline.com/common/oauth2/v2.0/authorize",
+            "tokenUrl": "https://login.microsoftonline.com/common/oauth2/v2.0/token",
+            "scopes": {
+              "https://graph.microsoft.com/Calendars.Read": "Read user calendars",
+              "https://graph.microsoft.com/Calendars.ReadWrite": "Read and write user calendars",
+              "https://graph.microsoft.com/Mail.Read": "Read user mail",
+              "https://graph.microsoft.com/Mail.ReadWrite": "Read and write user mail"
+            }
+          }
+        }
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://graph.microsoft.com/v1.0",
+      "description": "Microsoft Graph API Server"
+    }
+  ]
+}
