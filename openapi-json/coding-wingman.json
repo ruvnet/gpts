@@ -1,0 +1,246 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "GitHub Explorer API",
+    "version": "0.1.0"
+  },
+  "servers": [
+    {
+      "url": "replace-with-your-endpoint"
+    }
+  ],
+  "paths": {
+    "/search/code/": {
+      "post": {
+        "summary": "Search Code",
+        "description": "Search code on GitHub with pagination.\nDefault query: {\"query\": \"FastAPI filename:main.py\"}.\nPagination parameters: 'page' (default: 1) and 'per_page' (default: 2).",
+        "operationId": "search_code_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": { "application/json": { "schema": {} } }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": { "application/json": { "schema": { "$ref": "#/components/schemas/HTTPValidationError" } } }
+          }
+        }
+      }
+    },
+    "/search/commits/": {
+      "post": {
+        "summary": "Search Commits",
+        "description": "Search commits on GitHub.\nDefault query: {\"query\": \"fix bug repo:openai/gpt-3\"}",
+        "operationId": "search_commits_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": { "application/json": { "schema": {} } }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": { "application/json": { "schema": { "$ref": "#/components/schemas/HTTPValidationError" } } }
+          }
+        }
+      }
+    },
+    "/search/issues/": {
+      "post": {
+        "summary": "Search Issues",
+        "description": "Search issues on GitHub.\nDefault query: {\"query\": \"bug label:bug\"}",
+        "operationId": "search_issues_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": { "application/json": { "schema": {} } }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": { "application/json": { "schema": { "$ref": "#/components/schemas/HTTPValidationError" } } }
+          }
+        }
+      }
+    },
+    "/search/labels/": {
+      "post": {
+        "summary": "Search Labels",
+        "description": "Search labels on GitHub.\nDefault query: {\"query\": \"bug repo:openai/gpt-3\"}",
+        "operationId": "search_labels_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": { "application/json": { "schema": {} } }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": { "application/json": { "schema": { "$ref": "#/components/schemas/HTTPValidationError" } } }
+          }
+        }
+      }
+    },
+    "/search/repositories/": {
+      "post": {
+        "summary": "Search Repositories",
+        "description": "Search repositories on GitHub.\nDefault query: {\"query\": \"FastAPI stars:>1000\"}",
+        "operationId": "search_repositories_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": { "application/json": { "schema": {} } }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": { "application/json": { "schema": { "$ref": "#/components/schemas/HTTPValidationError" } } }
+          }
+        }
+      }
+    },
+    "/search/topics/": {
+      "post": {
+        "summary": "Search Topics",
+        "description": "Search topics on GitHub.\nDefault query: {\"query\": \"machine-learning\"}",
+        "operationId": "search_topics_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": { "application/json": { "schema": {} } }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": { "application/json": { "schema": { "$ref": "#/components/schemas/HTTPValidationError" } } }
+          }
+        }
+      }
+    },
+    "/search/users/": {
+      "post": {
+        "summary": "Search Users",
+        "description": "Search users on GitHub.\nDefault query: {\"query\": \"ruvnet\"}",
+        "operationId": "search_users_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": { "application/json": { "schema": {} } }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": { "application/json": { "schema": { "$ref": "#/components/schemas/HTTPValidationError" } } }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "SearchRequest": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "example": "FastAPI filename:main.py"
+          }
+        },
+        "required": ["query"]
+      },
+      "HTTPValidationError": {
+        "type": "object",
+        "properties": {
+          "detail": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            }
+          }
+        }
+      },
+      "ValidationError": {
+        "type": "object",
+        "properties": {
+          "loc": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "msg": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        },
+        "required": ["loc", "msg", "type"]
+      }
+    }
+  }
+}
