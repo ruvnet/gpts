@@ -5,10 +5,10 @@ This folder contains OpenAPI JSON specifications for various GPT models. OpenAPI
 
 ## Contents
 - JSON files detailing API endpoints, operations, parameters, and responses for each GPT model.
-- Function definitions derived from OpenAPI specs, facilitating intelligent API calls by GPT models&#8203;``【oaicite:1】``&#8203;.
+- Function definitions derived from OpenAPI specs, facilitating intelligent API calls by GPT models&#8203;``
 
 ## Usage
-- Each JSON file corresponds to a specific GPT model, containing `operationId` for identifying functions and schemas for parameter data types and structures&#8203;``【oaicite:0】``&#8203;.
+- Each JSON file corresponds to a specific GPT model, containing `operationId` for identifying functions and schemas for parameter data types and structures&#8203;``
 - These specifications aid in integrating GPT models with external APIs, enhancing their capabilities and applications.
 
 Feel free to explore and utilize these specifications to expand the functionality of your GPT models.
