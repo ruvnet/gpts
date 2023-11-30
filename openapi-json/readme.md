@@ -1,11 +1,11 @@
 # OpenAPI JSON Specifications for GPT Models
 
 ## Overview
-This folder contains OpenAPI JSON specifications for various GPT models. OpenAPI, a universally accepted standard for RESTful APIs, outlines the details of API services in a machine-readable format. This enables both humans and AI, like GPT models, to understand and interact with these services effectively&#8203;``【oaicite:2】``&#8203;.
+This folder contains OpenAPI JSON specifications for various GPT models. OpenAPI, a universally accepted standard for RESTful APIs, outlines the details of API services in a machine-readable format. This enables both humans and AI, like GPT models, to understand and interact with these services effectively.
 
 ## Contents
 - JSON files detailing API endpoints, operations, parameters, and responses for each GPT model.
-- Function definitions derived from OpenAPI specs, facilitating intelligent API calls by GPT models&#8203;``
+- Function definitions derived from OpenAPI specs, facilitating intelligent API calls by GPT models.
 
 ## Usage
 - Each JSON file corresponds to a specific GPT model, containing `operationId` for identifying functions and schemas for parameter data types and structures&#8203;``
