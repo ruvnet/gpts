@@ -103,3 +103,6 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
     _Assists with creating, refining, and understanding neural networks._  
     [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/Neural%20Network%20Creator.txt) | [GPT](https://chat.openai.com/g/g-qtIKiMWc8-neural-network-creator)
 
+25. 🤯 **Mindful Therapist**  
+    _A Therapy Bot specializing in cognitive restructuring._  
+    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/Mindful%20Therapist.txt) | [GPT](https://chat.openai.com/g/g-P9xNWRBnq-mindful-therapist)
