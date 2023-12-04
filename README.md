@@ -37,7 +37,7 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
 
 8. 🏨 **Algorithmic Hotel Assistant**  
    _A quick and easy way to find the perfect place to stay._  
-   [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/Algorithmic%20Hotel%20Assistant.txt) | [GPT](https://chat.openai.com/g/g-BQT5Jty54-knowledge-graph-advisors)
+   [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/Algorithmic%20Hotel%20Assistant.txt) | [GPT](https://chat.openai.com/gpts/editor/g-utlPOlEHu)
 
 9. 🔍 **SearchGPT**  
    _A friendly search assistant skilled in advanced Bing searches and data analysis._  
