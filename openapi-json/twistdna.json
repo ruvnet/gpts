@@ -1,0 +1,87 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Twist API",
+        "version": "1.0.0",
+        "description": "API for interacting with Twist DNA services."
+    },
+    "servers": [
+        {
+            "url": "https://api.twistdna.com",
+            "description": "Production server"
+        }
+    ],
+    "paths": {
+        "/order": {
+            "post": {
+                "operationId": "placeOrder",
+                "summary": "Place an order",
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "orderId": {
+                                            "type": "string",
+                                            "description": "Unique identifier for the order"
+                                        },
+                                        "status": {
+                                            "type": "string",
+                                            "description": "Status of the order"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/order/{orderId}": {
+            "get": {
+                "operationId": "getOrderStatus",
+                "summary": "Get order status",
+                "parameters": [
+                    {
+                        "name": "orderId",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        },
+                        "description": "Unique identifier for the order"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Successful response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "orderId": {
+                                            "type": "string",
+                                            "description": "Unique identifier for the order"
+                                        },
+                                        "status": {
+                                            "type": "string",
+                                            "description": "Status of the order"
+                                        },
+                                        "details": {
+                                            "type": "string",
+                                            "description": "Detailed information about the order"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
