@@ -106,3 +106,8 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
 25. 🤯 **Mindful Therapist**  
     _A Therapy Bot specializing in cognitive restructuring._  
     [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/Mindful%20Therapist.txt) | [GPT](https://chat.openai.com/g/g-P9xNWRBnq-mindful-therapist)
+
+26. 🦾 **Prompt Engine**  
+    _A specialized bot for crafting custom domain and template prompts._  
+    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/prompt-engine.txt) | [GPT](https://chat.openai.com/g/g-Vix24dVTU-prompt-engine)
+
