@@ -115,3 +115,7 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
     _A sophisticated Open Source AI Guidance & Analysis API emulator._  
     [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/guardrail.json) | [GPT](https://chat.openai.com/g/g-6Bvt5pJFf-guardrail)
 
+28. 🐧 **AI Swarm Linux**  
+    _Free AI Linux Instances built using Ubuntu, designed to manage & deploy swarms of intelligent AI agents._  
+    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/swarm-linaux.toml) | [GPT](https://chat.openai.com/g/g-v3VZVZSPc-ai-swarm-linux)
+
