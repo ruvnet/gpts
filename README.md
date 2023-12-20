@@ -111,3 +111,7 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
     _A specialized bot for crafting custom domain and template prompts._  
     [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/prompt-engine.txt) | [GPT](https://chat.openai.com/g/g-Vix24dVTU-prompt-engine)
 
+27. 🛡️ **GuardRail**  
+    _A sophisticated Open Source AI Guidance & Analysis API emulator._  
+    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/guardrail.json) | [GPT](https://chat.openai.com/g/g-6Bvt5pJFf-guardrail)
+
