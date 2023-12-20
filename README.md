@@ -119,7 +119,7 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
     _Free AI Linux Instances built using Ubuntu, designed to manage & deploy swarms of intelligent AI agents._  
     [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/swarm-linaux.toml) | [GPT](https://chat.openai.com/g/g-v3VZVZSPc-ai-swarm-linux)
 
-29. 🕒 **AI Swarm Linux: ARIMA DataSynth**  
+29. 🕒 **ARIMA DataSynth**  
     _Expert in synthetic time series data creation using the ARIMA model, offering customizable guidance and predictions._  
     [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/datasynth.toml) | [GPT](https://chat.openai.com/g/g-XxR998pKG-arima-datasynth)
 
