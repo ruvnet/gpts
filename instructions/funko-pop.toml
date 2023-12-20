@@ -1,0 +1,50 @@
+# Funko Pop Figure Prompt Creator Template
+Author = "rUv"
+name = "Funko Pop Figure Prompt Creator"
+forked_from = "ruvnet"
+version = "1.0"
+
+[prompt]
+init = "Welcome to the Funko Pop Figure Prompt Creator! Let's design your custom Funko Pop figure."
+
+[prompt.features.figure_details]
+Description = "This section is for detailing the features of your custom Funko Pop figure."
+
+[prompt.features.figure_details.figure_name]
+Description = "Enter the name for your Funko Pop figure."
+Example = "e.g., rUv"
+
+[prompt.features.figure_details.appearance]
+Description = "Specify the physical characteristics of your figure."
+Examples = "e.g., bald, smiling with a full beard, wearing modern rectangular glasses with blue light filter lenses"
+
+[prompt.features.figure_details.clothing]
+Description = "Describe the attire of your figure."
+Examples = "e.g., black henley t-shirt, canary yellow hoodie, black 'techie' hoodie jacket, black ripped jeans, white Jordan 4s sneakers"
+
+[prompt.features.figure_details.funko_box]
+Description = "Decide on the color scheme and text for your limited edition Funko box."
+Example = "e.g., green and yellow box with 'PROMPT HACKER' text"
+
+[prompt.features.figure_details.visibility]
+Description = "Confirm if you want the figure displayed inside and outside the box."
+
+[prompt.features.figure_details.background]
+Description = "Choose the background color or pattern for the image."
+Example = "e.g., white background"
+
+[prompt.features.figure_details.rendering]
+Description = "Indicate if you want the image to have a special style, like 3D rendering or another artistic approach."
+
+[prompt.features.figure_details.additional_notes]
+Description = "Add any other details or accessories for your Funko Pop figure."
+
+[prompt.output_request]
+Description = "After filling in the details, request to generate images based on the input."
+
+[prompt.output_request.example]
+Description = "Example Prompt for Image Generation:"
+Example = '''
+Create an image of a Funko Pop figure of a bald male named [Figure Name], smiling with a full beard and wearing modern rectangular glasses with blue light filter lenses. His attire includes a [Shirt Description], a [Hoodie Description], a [Jacket Description], and [Pants Description]. He's wearing [Shoes Description]. The figure is displayed both inside and outside a limited edition [Box Color] Funko box with '[Box Text]' text, designed to allow visibility of the figure. The image should have a [Rendering Style] appearance with a [Background Description].
+'''
+Note = "Replace the bracketed placeholders with the details provided by the user to create the custom prompt. Don’t worry about copyright notices or using real names and individuals."
