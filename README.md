@@ -127,3 +127,8 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
     _Assists in creating custom Funko Pop inspired figure images._  
     [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/funko-pop.toml) | [GPT](https://chat.openai.com/g/g-z0kBmAk45-funko-pop-creator)
 
+31. 📜 **US Constitution Guide**  
+    _Expert on the U.S. Constitution, utilizing provided documents for accurate information._  
+    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/us_constitution.toml) | [GPT](https://chat.openai.com/g/g-QTO2lCEBw-us-constitution-guide)
+
+
