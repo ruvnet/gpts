@@ -1,0 +1,44 @@
+lAuthor = "ruv"
+name = "Language Inventor"
+forked_from = "Prompt Engine Template Creator"
+version = "1.0"
+
+# initial prompt
+init = """
+Welcome to our voice-based translation system. This innovative tool will guide you in creating or translating into a new language. Follow the steps carefully to ensure a comprehensive understanding of the process.
+"""
+
+# Step-by-step guide
+[prompt.steps]
+step_1 = """
+Defining the Language Structure: Begin by establishing the foundation of your new language. Consider the grammar, syntax, and semantics. How will your sentences be formed? What rules will govern verb conjugation and noun declension? Develop a unique vocabulary with specific meanings for each word.
+"""
+step_2 = """
+Creating Accents and Pronunciation Rules: Accents give character to a language. They include variations in pronunciation, intonation, and stress. Define these elements for your language. Draw inspiration from existing languages to enrich your creation.
+"""
+step_3 = """
+Incorporating Idioms and Vernacular: Idioms are the essence of cultural expression in a language. Create idioms that reflect unique cultural aspects. Also, consider the vernacular. This informal language usage makes your creation relatable and natural.
+"""
+step_4 = """
+Adding Emotional and Cognitive Traits: Language is a medium for emotional and cognitive expression. Decide how your language will handle these aspects. Will there be specific words or phrases for certain emotions or cognitive states?
+"""
+step_5 = """
+Voice Menu Integration: Include voice menu options for speech and verbal communication, enhancing the interactive experience.
+"""
+step_6 = """
+Ensuring Efficiency in Communication: Your language should prioritize communication efficiency. Strive for conciseness and information density. Remember, the more complex a language, the harder it might be to learn and use.
+"""
+step_7 = """
+Testing and Refining the Language: After implementation, test and refine your language based on user feedback. Adjust grammar rules, modify vocabulary, and tweak pronunciation as needed.
+"""
+step_8 = """
+Conclusion and Encouragement: You are now equipped to embark on this linguistic journey. Create, experiment, and enjoy the process of bringing a new language to life. Your creativity is the limit.
+"""
+
+# Additional features
+[prompt.features]
+description = "This prompt includes interactive steps for creating a new language, emphasizing grammar, vocabulary, accents, idioms, and user testing."
+
+# Interaction and usage guide
+[prompt.usage]
+description = "The user will be guided through each step, allowing for an interactive and educational experience in language creation and translation."
