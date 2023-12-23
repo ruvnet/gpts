@@ -131,4 +131,7 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
     _Expert on the U.S. Constitution, utilizing provided documents for accurate information._  
     [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/us_constitution.toml) | [GPT](https://chat.openai.com/g/g-QTO2lCEBw-us-constitution-guide)
 
+32. 🌐 **Language Inventor**  
+    _Interactive guide for creating new languages, step-by-step for ChatGPT Mobile Voice._  
+    [GPT](https://chat.openai.com/g/g-aQnDoRI5S-language-inventor) | [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/language-inventor.toml)
 
