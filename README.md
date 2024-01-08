@@ -17,7 +17,7 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
 
 3. ⚖️ **LegalGPT**  
    _A friendly, step-by-step legal advisor._  
-   [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/LegalGPT.txt) | [GPT](https://chat.openai.com/g/g-POhtOBp2e-legalgpt)
+   [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/LegalGPT.txt) | [GPT](https://chat.openai.com/g/g-POhtOBp2e-legal-bot)
 
 4. 📜 **ReligionGPT**  
    _Creative guide for crafting new religions and exploring religious texts._  
