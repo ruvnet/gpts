@@ -134,3 +134,8 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
 32. 🌐 **Language Inventor**  
     _Interactive guide for creating new languages, step-by-step for ChatGPT Mobile Voice._  
     [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/language-inventor.toml) | [GPT](https://chat.openai.com/g/g-aQnDoRI5S-language-inventor)
+
+33. 📝 **ArticleGPT**  
+    _A tool for crafting detailed, informative articles._  
+    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/articleGPT.toml) | [GPT](https://chat.openai.com/g/g-mGLNfFuq3-articlegpt)
+    
