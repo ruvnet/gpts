@@ -139,7 +139,11 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
     _A tool for crafting detailed, informative articles._  
     [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/articleGPT.toml) | [GPT](https://chat.openai.com/g/g-mGLNfFuq3-articlegpt)
 
-34. 🛡️ **Code Vulnerabilities & Exploit Advisor**  
+34. 📞 **Call me, maybe?**  
+    _Your personal concierge GPT for making calls, offering consultancy in various domains such as Business Strategy, Data Analysis, and Technology Integration._  
+    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/callme-maybe.toml) | [GPT](https://chat.openai.com/g/g-K2zfyv9eX-call-me-maybe) | [Library](https://github.com/ruvnet/gpts/blob/main/openapi-json/callme-maybe.json)
+
+35. 🛡️ **Code Vulnerabilities & Exploit Advisor**  
     _An advanced GPT for cybersecurity professionals and researchers, focusing on vulnerabilities and code analysis._  
     [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/code_exploits.toml) | [GPT](https://chat.openai.com/g/g-xvSn8s9lD-code-vulnerabilities-exploit-advisor) | [Library](https://github.com/ruvnet/gpts/blob/main/library/search-engine-list.md)
 
