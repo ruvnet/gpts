@@ -45,7 +45,7 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
 
 10. 🔬 **QuantumGPT**  
     _Assists with Azure Quantum jobs, simulates API requests._  
-    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/QuantumGPT.txt) | [GPT](https://chat.openai.com/g/g-mXdwr9VWa-quantumgpt) | [OPENAPI.JSON](https://github.com/ruvnet/gpts/blob/main/openapi-json/ms-graph.json)
+    [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/QuantumGPT.txt) | [GPT](https://chat.openai.com/g/g-mXdwr9VWa-quantum-computing-gpt) | [OPENAPI.JSON](https://github.com/ruvnet/gpts/blob/main/openapi-json/ms-graph.json)
 
 11. 💻 **The Coding Wingman**  
     _AI assistant for coding, with GitHub integration._  
