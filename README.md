@@ -147,3 +147,7 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
     _An advanced GPT for cybersecurity professionals and researchers, focusing on vulnerabilities and code analysis._  
     [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/code_exploits.toml) | [GPT](https://chat.openai.com/g/g-lM9CUnfZl-code-vulnerabilities-exploit-advisor) | [Library](https://github.com/ruvnet/gpts/blob/main/library/search-engine-list.md)
 
+36. ⚖️ **EU AI Act Compliance Checker**  
+    _A detailed guide for EU AI Act compliance, referencing specific Act documents._  
+    [GPT](https://chat.openai.com/g/g-leQjBzj40-eu-ai-act-compliance-checker) | [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/eu-compliance-checker.toml)
+
