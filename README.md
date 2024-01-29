@@ -52,7 +52,7 @@ Here, you'll find comprehensive instructions for each GPT, empowering you to rep
     [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/The%20Coding%20Wingman.txt) | [GPT](https://chat.openai.com/g/g-rvFHm9pMe-the-coding-wingman) | [OPENAPI.JSON](https://github.com/ruvnet/gpts/blob/main/openapi-json/coding-wingman.json)
 
 12. 📅 **GPT Calendar and Email Scheduler**  
-    _A bot for scheduling and managing Google Calendar meetings._  
+    _A bot for scheduling and managing Microsoft Calendar meetings._  
     [Instruction](https://github.com/ruvnet/gpts/blob/main/instructions/GPT%20Calendar%20and%20Email%20Scheduler.txt) | [GPT](https://chat.openai.com/g/g-yPpqTeedS-gpt-calendar-and-email-scheduler) | [OPENAPI.JSON](https://github.com/ruvnet/gpts/blob/main/openapi-json/ms-graph.json)
 
 13. 🧭 **MS Co-Pilot**  
