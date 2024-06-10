@@ -2,6 +2,9 @@
 
 This repository contains the prompt and usage guide for an AI-powered virtual coach designed to enhance cognitive performance and knowledge consumption through personalized voice-based interactions. The virtual coach leverages advanced language models, cognitive science, and educational best practices to provide a highly engaging and effective learning experience.
 
+# ChatGPT GPT
+Access the virtual coach using this link: https://chatgpt.com/g/g-OhEZy3GkU-agentic-voice-coach
+
 ## Prompt
 
 The detailed prompt for the AI-powered virtual coach can be found in [prompt.md](prompt.md). This prompt outlines the core functionalities, guidelines, and scientific principles that underpin the virtual coach's operation.
